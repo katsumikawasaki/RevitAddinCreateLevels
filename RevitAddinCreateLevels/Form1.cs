@@ -42,15 +42,5 @@ namespace RevitAddinCreateLevels
         {
             this.Close();
         }
-        public void SetExistLevels(List<string> levelStrings)
-        {
-            // ListBoxにレベルを追加
-            foreach (var level in levelStrings)
-            {
-                
-            }
-        }
-        
-
     }
 }

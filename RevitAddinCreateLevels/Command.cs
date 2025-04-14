@@ -39,7 +39,6 @@ namespace RevitAddinCreateLevels
             //フォーム作成
             Form1 form1 = new Form1();
             //既設レベルから LevelClassクラスのインスタンスを作ってデータバインディングのexsistLevelsに追加
-            List<string> levelStrings = new List<string>();
             foreach (var level in levels)
             {
                 //小数点以下0桁で四捨五入表示

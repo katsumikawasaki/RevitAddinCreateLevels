@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddinCreateLevels</Text>
+    <Description>Some description for RevitAddinCreateLevels</Description>
+    <Assembly>RevitAddinCreateLevels.dll</Assembly>
+    <FullClassName>RevitAddinCreateLevels.Command</FullClassName>
+    <ClientId>dde3ad19-8c91-4d8e-b8b9-215e1fcf53e0</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>kawasaki-pe inc, https://kawasaki-pe.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddinCreateLevels</Name>
+    <Assembly>RevitAddinCreateLevels.dll</Assembly>
+    <FullClassName>RevitAddinCreateLevels.App</FullClassName>
+    <ClientId>36da62bd-05b0-4451-bf40-f472047c5e18</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>kawasaki-pe inc, https://kawasaki-pe.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

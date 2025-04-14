@@ -23,10 +23,6 @@ namespace RevitAddinCreateLevels
 
             newLevels = new BindingList<LevelClass>();
             exsistLevels = new BindingList<LevelClass>();
-            /*
-            LevelClass taskItem = new LevelClass() { LevelName = "レベル 3", LevelHeight = 5000 };
-            newLevels.Add(taskItem);
-            */
             //既存レベル
             dataGridView1.DataSource = exsistLevels;
             //新規レベル
